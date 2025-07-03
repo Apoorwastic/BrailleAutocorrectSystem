@@ -15,17 +15,8 @@ A JavaFX desktop application to decode Braille entered via QWERTY keyboard forma
 - IntelliJ IDEA (Community or Ultimate Edition)
 
 ### 📁 Project Structure
+ ![image](https://github.com/user-attachments/assets/09f17819-20c2-4890-b6ac-3ce48a1b9126)
 
-BrailleAutocorrectSystem/
-├── src/
-│ └── main/
-│ ├── java/
-│ │ └── braille/
-│ │ ├── BrailleApp.java
-│ │ └── OptimizedDictionary.java
-│ └── resources/
-│ └── words.txt
-└── README.md
 
 yaml
 Copy code
@@ -103,9 +94,6 @@ If a decoded word is not in the dictionary:
 | thay.     | thay    | they       |
 | dag.      | dag     | day        |
 | bkow.     | bkow    | book       |
-| owrd.     | owrd    | word       |
-| dg.       | dg      | dog        |
-| wrok.     | wrok    | work       |
 | teh.      | teh     | the        |
 | knwo.     | knwo    | know       |
 
@@ -118,12 +106,10 @@ Contains over **10,000+** common English words (prepositions, verbs, nouns, etc.
 Located at:
 src/main/resources/words.txt
 
-yaml
-Copy code
 
-You may replace this file to support:
-- Multilingual input
-- Domain-specific terminology (e.g., medical, legal)
+Output 
+![Screenshot 2025-07-03 200305](https://github.com/user-attachments/assets/b95cc969-2430-4140-af27-b6ca5709bdd4)
+
 
 ---
 
@@ -132,26 +118,17 @@ You may replace this file to support:
 - ✅ QWERTY Braille entry with live decoding
 - ✅ Autocorrection with weighted suggestions
 - ✅ Efficient lookup even for large dictionaries
-- ✅ Handles insertion, deletion, replacement, and transposition errors
 
 ### 🔜 Future Enhancements
 
-- Support for **Braille contractions**
 - Add **learning mechanism** (smart suggestions over time)
 - **Voice feedback** on decoded words
-- **Export** feature for decoded output
 - **Multilingual support**
 
 ---
 
 ## 👩‍💻 Developed By
 
-**Apoorwa Priyam**  
-Bayer India – SEO & Accessibility Intern  
-GitHub: [@apoorwapriyam](https://github.com/)
+**Apoorwa**  
 
 ---
-
-## 📄 License
-
-MIT License — Free for personal and commercial use.
